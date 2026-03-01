@@ -1,6 +1,6 @@
-# React.JS Isomorphic (Universal) Application
+# React.JS Isomorphic (Universal) Example Application
 
-An isomorphic (universal) React.js application that renders the same React components on both the server and the client. The server uses Node.js with Express.js and React DOM's `renderToString()` to produce fully-rendered HTML on the initial page load. The client then hydrates that HTML with `hydrateRoot()`, attaching event listeners and making the page interactive — all without a blank-page flash.
+An isomorphic (universal) React.js example application that renders the same React components on both the server and the client. The server uses Node.js with Express.js and React DOM's `renderToString()` to produce fully-rendered HTML on the initial page load. The client then hydrates that HTML with `hydrateRoot()`, attaching event listeners and making the page interactive — all without a blank-page flash.
 
 ## Application Files
 
