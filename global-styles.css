@@ -1,0 +1,42 @@
+* {
+    font-family: Bodoni, 'Times New Roman', serif;
+    font-size: 36px;
+    margin: 5%;
+    padding: 0;
+}
+
+body {
+    background-color: cornsilk;
+    color: navy;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    width: 100vw;
+}
+
+img {
+    border: solid 15px blue;
+    border-radius: 20%;
+    box-shadow: 15px 15px 15px slateblue;
+    display: block;
+    margin: 0 auto;
+    padding: 7px;
+}
+
+h1 {
+    font-size: 1.25em;
+    font-weight: 900;
+    text-align: center;
+}
+
+button {
+    color: navy;
+    border: solid 3px navy;
+    border-radius: 15px;
+    box-shadow: 4px 4px 4px slategray;
+    display: block;
+    font-family: Trebuchet, 'Times New Roman', serif;
+    font-size: 0.75em;
+    margin: 0 auto 3rem auto;
+    padding: 0.5em;
+}

@@ -1,0 +1,40 @@
+{
+  "name": "node-server",
+  "version": "0.0.1",
+  "description": "Example of a Node.JS Server with Express.JS",
+  "keywords": [
+    "JavaScript",
+    "TypeScript",
+    "Node.JS",
+    "Express.JS",
+    "Server",
+    "React",
+    "Universal",
+    "Isomporphic"
+  ],
+  "license": "ISC",
+  "author": "Faddah Wolf",
+  "type": "module",
+  "main": "server.tsx",
+  "scripts": {
+    "build": "esbuild client.tsx --bundle --outfile=dist/bundle.js --jsx=automatic --jsx-import-source=react && cp global-styles.css dist/global-styles.css",
+    "start": "npm run build && tsx server.tsx",
+    "dev": "npm run build && tsx watch server.tsx",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.22.1",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.3.3",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "esbuild": "^0.27.3",
+    "nodemon": "^3.1.14"
+  }
+}
